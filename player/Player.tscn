@@ -1,4 +1,7 @@
-[gd_scene load_steps=10 format=1]
+[gd_scene load_steps=12 format=1]
+
+[ext_resource path="res://player/Player.gd" type="Script" id=1]
+[ext_resource path="res://player/playersheet.png" type="Texture" id=2]
 
 [sub_resource type="CircleShape2D" id=1]
 
@@ -8,7 +11,7 @@ radius = 16.0
 [sub_resource type="Animation" id=2]
 
 resource/name = "idle_down"
-length = 1.4
+length = 1.2
 loop = true
 step = 0.2
 tracks/0/type = "value"
@@ -25,7 +28,7 @@ tracks/0/keys = {
 [sub_resource type="Animation" id=3]
 
 resource/name = "idle_left"
-length = 1.4
+length = 1.2
 loop = true
 step = 0.2
 tracks/0/type = "value"
@@ -42,7 +45,7 @@ tracks/0/keys = {
 [sub_resource type="Animation" id=4]
 
 resource/name = "idle_right"
-length = 1.4
+length = 1.2
 loop = true
 step = 0.2
 tracks/0/type = "value"
@@ -59,7 +62,7 @@ tracks/0/keys = {
 [sub_resource type="Animation" id=5]
 
 resource/name = "idle_up"
-length = 1.4
+length = 1.2
 loop = true
 step = 0.2
 tracks/0/type = "value"
@@ -150,6 +153,7 @@ shapes/0/trigger = false
 collision/layers = 1
 collision/mask = 1
 collision/margin = 0.08
+script/script = ExtResource( 1 )
 
 [node name="Camera2D" type="Camera2D" parent="."]
 
@@ -173,10 +177,15 @@ drag_margin/bottom = 0.1
 [node name="sprite" type="Sprite" parent="."]
 
 transform/scale = Vector2( 2, 2 )
+texture = ExtResource( 2 )
 offset = Vector2( 0, -16 )
 vframes = 6
 hframes = 10
-frame = 51
+
+[node name="gunpos" type="Position2D" parent="sprite"]
+
+transform/pos = Vector2( 13.1672, -17.8001 )
+transform/scale = Vector2( 0.5, 0.5 )
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
 
