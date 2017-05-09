@@ -1,0 +1,68 @@
+crawler game ideas
+
+? plan actions when you see a new screen 
+ puzzle oriented game
+ no realtime-action
+ just retry when fail, over and over? or lives
+ needs lots of unique and challenging puzzles
+  solution changes based on current status
+   like path of the rabbit - food and health meters
+ like a turn-based game but you *need* to plan ahead
+ may be easier to draw path on touch screen/ stylus
+ like witness line puzzles but navigating a character through a graph/map
+  solution should be there the whole time, you just need to find it
+ obstacles change over time - must be very simple or not many
+  should be hand-crafted for quality
+ vs turnbased - must plan ahead, unique, 
+  no combat, no neat side-effects?, confusing, rougelike puzzle sounds like a bad idea
+
+  
+player moves to a beat?
+  
+doors to other areas are colored to hint at what is behind them
+
+items
+ health restore
+ food restore
+ time bomb
+ key
+upgrades?
+ invisibility
+ freeze time
+
+dark atmosphere, simple color pallete 
+ 
+
+potentially infinitely generated (no rooms or loading areas?)??
+map expands as you explore (map?)
+top-down dungeon crawler
+no crafting, focus on combat
+base building - to store items, replenish health, and?
+ only build when no enemies are nearby
+ or only at certain spots?
+ 'open world' dungeon crawler? - to give greater exploration and adventure
+  like caving in minecraft
+melee or ranged combat?
+ a focus on one should lead to better enemy designs
+ or just make one limited (like HLD's range) 
+weapons (and other items?) are dropped from enemies (or found?) 
+ weapons break to limit hoarding? (like botw)
+ 'found' encourages exploration more than combat
+ 'dropped' encourages killing enemies more
+.
+
+horror game inspired combat: 
+move or shoot, only one at a time
+enemies are scary and make noise before you see them
+slower paced, more thought into equipment loadout
+
+
+
+
+
+
+
+
+
+ 
+ 
